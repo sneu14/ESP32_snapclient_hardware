@@ -16,3 +16,10 @@ You can find some Solderpad on the PCB. Some of the Solderpads should be shorten
 
 ## ESP32 Boards
 ### Olimex ESP32-PoE
+When using the Ethernetport of the Board only a limited set of the IO Pins are available. The following configuration works with Hardware Mute
+|ESP32-PoE|PCM5102A|Function|
+|---------|--------|--------|
+|13|SCK|Clock|
+|14|LCK|Channel Select|
+|32|DIN|Data|
+|33|3/XSMT|Hardware Mute|
