@@ -12,7 +12,7 @@ You can find some Solderpads on the PCB which should not be left floating for st
 - H-3 L (leave open if Hardware Mute is used, or pull up, i.e. connect middle pad to H to enable audio output permanently)
 - H 2-L (pull down, i.e. connect middle pad to L)
 - H 1-L (pull down, i.e. connect middle pad to L)
-- H-4 L (pull down, i.e. connect middle pad to L)
+- H-4 L (pull up, i.e. connect middle pad to H)
 
 
 ## ESP32 Boards
