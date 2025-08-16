@@ -4,7 +4,7 @@ This repo contains Information about connecting I2S DACs to ESP32 Boards and run
 
 ## DACs
 ### PCM5102A
-The PCM5102A is available on small PCBs (brnaded as GY PCM5102A) with a 3,5mm jack for connecting an Amplifier.
+The PCM5102A is available on small PCBs (branded as GY PCM5102A) with a 3,5mm jack for connecting an Amplifier.
 For the connection to the ESP32 the pins BCK, DIN and LCK are necessary. XSMT/3 can optionally be used if Hardware Mute/Unmute is used.
 You can find some Solderpads on the PCB which should not be left floating for stable operation. This can also be realized by using a pin header and jumpers on the coresponding row of solderpads on the board.
 
@@ -12,7 +12,7 @@ You can find some Solderpads on the PCB which should not be left floating for st
 - H-3 L (leave open if Hardware Mute is used, or pull up, i.e. connect middle pad to H to enable audio output permanently)
 - H 2-L (pull down, i.e. connect middle pad to L)
 - H 1-L (pull down, i.e. connect middle pad to L)
-- H-4 L (pull down, i.e. connect middle pad to L)
+- H-4 L (pull up, i.e. connect middle pad to H)
 
 
 ## ESP32 Boards
