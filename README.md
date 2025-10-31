@@ -14,10 +14,15 @@ You can find some Solderpads on the PCB which should not be left floating for st
 - H 1-L (pull down, i.e. connect middle pad to L)
 - H-4 L (pull up, i.e. connect middle pad to H)
 
+![GY PCM5102 Schematic/Datasheet](./img/gy-pcm5102-schematic.png)
 
 ## ESP32 Boards
 ### Olimex ESP32-PoE
+
+[Link to manufacturer website](https://www.olimex.com/Products/IoT/ESP32/ESP32-POE-ISO/open-source-hardware)
+
 When using the Ethernetport of the Board only a limited set of the IO Pins are available. The following configuration works with Hardware Mute
+
 |ESP32-PoE|PCM5102A|Function|
 |---------|--------|--------|
 |13|SCK|Clock|
